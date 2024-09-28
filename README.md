@@ -66,6 +66,11 @@ Ensure you have the following installed on your machine:
 - Dates (e.g., registration and last updated dates) are stored in ISO format.
 - Error handling for API requests assumes transient errors and prompts users to retry.
 
+## The hardcoded credentials for the login are as follows:
+
+Username: admin
+Password: password123
+
 ## Technologies Used
 
 ### Frontend

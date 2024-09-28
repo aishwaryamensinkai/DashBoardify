@@ -29,3 +29,17 @@
     gap: 10px;
   }
 }
+
+/* src/css/Navbar.css */
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.logout-button:hover {
+  color: #e74c3c;
+}

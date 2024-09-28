@@ -177,6 +177,41 @@ const UserList = ({ onEdit }) => {
             // Message displayed if no users match the search/filter criteria
             <div className="no-results-message">No users found.</div>
           )}
+
+          {/* Display user cards for smaller screens */}
+          <div className="user-cards">
+            {filteredUsers.map((user) => (
+              <div key={user.id} className="user-card">
+                <div>
+                  <span>Name:</span> <span>{user.name}</span>
+                </div>
+                <div>
+                  <span>Email:</span> <span>{user.email}</span>
+                </div>
+                <div>
+                  <span>Role:</span> <span>{user.role}</span>
+                </div>
+                <div>
+                  <span>Registered Date:</span>{" "}
+                  <span>
+                    {new Date(user.registeredDate).toLocaleDateString()}
+                  </span>
+                </div>
+                <div>
+                  <span>Last Updated:</span>{" "}
+                  <span>
+                    {user.lastUpdatedDate
+                      ? new Date(user.lastUpdatedDate).toLocaleString()
+                      : "N/A"}
+                  </span>
+                </div>
+                <div className="user-card-buttons">
+                  <button onClick={() => onEdit(user)}>Edit</button>
+                  <button onClick={() => deleteUser(user.id)}>Delete</button>
+                </div>
+              </div>
+            ))}
+          </div>
         </>
       )}
     </div>

@@ -1,0 +1,190 @@
+/* src/css/Login.css */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #81ecec, #19BC9B);
+  font-family: Arial, sans-serif;
+}
+
+.login-intro {
+  max-width: 500px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-intro h1 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+.login-intro p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #636e72;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-list li {
+  text-align: left;
+  font-size: 14px;
+  color: #2d3436;
+  display: flex;
+  align-items: center;
+}
+
+.feature-list li::before {
+  content: "✔️";
+  margin-right: 8px;
+}
+
+.login-container {
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: translateY(-5px);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #2d3436;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #74b9ff;
+  box-shadow: 0 0 5px rgba(116, 185, 255, 0.5);
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #19BC9B;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #19BC9B;
+  transform: translateY(-3px);
+}
+
+.error-message {
+  color: #d63031;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffeaa7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-page {
+    padding: 10px;
+  }
+
+  .login-intro {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-intro h1 {
+    font-size: 22px;
+  }
+
+  .login-intro p {
+    font-size: 14px;
+  }
+
+  .feature-list li {
+    font-size: 12px;
+  }
+
+  .login-container h2 {
+    font-size: 18px;
+  }
+
+  .login-container input,
+  .login-container button {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-intro {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .login-container {
+    padding: 15px;
+  }
+
+  .login-intro h1 {
+    font-size: 20px;
+  }
+
+  .login-intro p {
+    font-size: 12px;
+  }
+
+  .feature-list li {
+    font-size: 10px;
+  }
+
+  .login-container h2 {
+    font-size: 16px;
+  }
+
+  .login-container input,
+  .login-container button {
+    padding: 8px;
+  }
+}
