@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DashBoardify/static/css/main.29783392.css",
-    "main.js": "/DashBoardify/static/js/main.64210616.js",
+    "main.js": "/DashBoardify/static/js/main.ebff1060.js",
     "index.html": "/DashBoardify/index.html",
     "main.29783392.css.map": "/DashBoardify/static/css/main.29783392.css.map",
-    "main.64210616.js.map": "/DashBoardify/static/js/main.64210616.js.map"
+    "main.ebff1060.js.map": "/DashBoardify/static/js/main.ebff1060.js.map"
   },
   "entrypoints": [
     "static/css/main.29783392.css",
-    "static/js/main.64210616.js"
+    "static/js/main.ebff1060.js"
   ]
 }
