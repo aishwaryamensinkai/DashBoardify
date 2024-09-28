@@ -66,11 +66,6 @@ Ensure you have the following installed on your machine:
 - Dates (e.g., registration and last updated dates) are stored in ISO format.
 - Error handling for API requests assumes transient errors and prompts users to retry.
 
-## The hardcoded credentials for the login are as follows:
-
-Username: admin
-Password: password123
-
 ## Technologies Used
 
 ### Frontend
@@ -152,6 +147,22 @@ fetch('http://localhost:3000/users', {
    ```
 
 Access the application at `http://localhost:3001`.
+
+## Authentication Details
+
+### Type
+Basic authentication using hardcoded credentials.
+
+### Login Credentials
+- **Username:** `admin`
+- **Password:** `password123`
+
+### Authentication Process
+- When the correct credentials are entered, an `isAuthenticated` key with the value `"true"` is stored in `localStorage`, allowing access to the admin panel.
+
+### Error Handling
+- If the credentials are incorrect, an error message, "Invalid credentials. Please try again," is displayed.
+
 
 ## Approach and Challenges
 
