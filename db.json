@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "user",
+      "createdAt": "2024-09-20T14:30:00Z",
+      "updatedAt": "2024-09-20T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "admin",
+      "createdAt": "2024-09-15T09:45:00Z",
+      "updatedAt": "2024-09-16T11:20:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "role": "user",
+      "createdAt": "2024-09-10T11:20:00Z",
+      "updatedAt": "2024-09-10T11:20:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Alice Brown",
+      "email": "alice.brown@example.com",
+      "role": "user",
+      "createdAt": "2024-09-05T16:55:00Z",
+      "updatedAt": "2024-09-07T10:15:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson@example.com",
+      "role": "user",
+      "createdAt": "2024-08-28T13:10:00Z",
+      "updatedAt": "2024-08-28T13:10:00Z",
+      "lastUpdatedDate": "2024-09-28T17:59:54.638Z"
+    },
+    {
+      "id": "6",
+      "name": "Eva Martinez",
+      "email": "eva.martinez@example.com",
+      "role": "user",
+      "createdAt": "2024-09-21T10:05:00Z",
+      "updatedAt": "2024-09-21T10:05:00Z"
+    },
+    {
+      "id": "7",
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "role": "user",
+      "createdAt": "2024-09-19T08:40:00Z",
+      "updatedAt": "2024-09-20T14:25:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Grace Taylor",
+      "email": "grace.taylor@example.com",
+      "role": "user",
+      "createdAt": "2024-09-18T15:25:00Z",
+      "updatedAt": "2024-09-18T15:25:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Frank Anderson",
+      "email": "frank.anderson@example.com",
+      "role": "user",
+      "createdAt": "2024-09-07T12:50:00Z",
+      "updatedAt": "2024-09-07T12:50:00Z"
+    },
+    {
+      "id": "2011",
+      "name": "Aishwarya",
+      "email": "aishwaryamensinkai@gmail.com",
+      "role": "admin",
+      "lastUpdatedDate": "2024-09-28T09:33:56.484Z"
+    },
+    {
+      "id": "83e4",
+      "name": "Apoorva",
+      "email": "Apoorva@gmail.com",
+      "role": "admin",
+      "registeredDate": "2024-09-28T08:14:14.451Z",
+      "lastUpdatedDate": "2024-09-28T08:27:36.755Z"
+    },
+    {
+      "id": "dd28",
+      "name": "Karthik ",
+      "email": "kenni@gmail.com",
+      "role": "admin",
+      "registeredDate": "2024-09-28T08:27:11.109Z",
+      "lastUpdatedDate": "2024-09-28T08:27:11.109Z"
+    },
+    {
+      "id": "4bdb",
+      "name": "k",
+      "email": "k@gmail.com",
+      "role": "user",
+      "registeredDate": "2024-09-28T09:44:57.624Z",
+      "lastUpdatedDate": "2024-09-28T09:44:57.624Z"
+    },
+    {
+      "id": "fc47",
+      "name": "Mahima",
+      "email": "mahiam@gmail.com",
+      "role": "user",
+      "registeredDate": "2024-09-28T17:56:06.066Z",
+      "lastUpdatedDate": "2024-09-28T17:56:06.066Z"
+    }
+  ]
+}

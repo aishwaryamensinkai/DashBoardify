@@ -1,0 +1,210 @@
+/* UserList.css */
+.user-list {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.user-list input {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.user-list th,
+.user-list td {
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.user-list th {
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+}
+
+.user-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-list button {
+  padding: 5px 10px;
+  background-color: #18bc9c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.user-list button:hover {
+  background-color: #16a085;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .user-list {
+    padding: 15px;
+  }
+
+  .user-list input {
+    width: 100%;
+  }
+
+  .user-list table {
+    font-size: 14px;
+  }
+
+  .user-list th,
+  .user-list td {
+    padding: 8px;
+  }
+
+  .user-list button {
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-list table {
+    display: none;
+  }
+
+  .user-card {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .user-card div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .user-card div:last-child {
+    border-bottom: none;
+  }
+
+  .user-card div span:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .user-card-buttons {
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .user-card-buttons button {
+    margin-left: 5px;
+  }
+}
+
+.user-cards {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .user-list table {
+    display: none;
+  }
+
+  .user-cards {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .user-list table {
+    display: table;
+  }
+
+  .user-cards {
+    display: none;
+  }
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.controls input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 250px;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+
+.filter-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 150px;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+}
+
+.controls select {
+  z-index: 2;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .controls {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .controls input {
+    max-width: 45%;
+    width: auto;
+  }
+
+  .filter-dropdown {
+    max-width: 45%;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .controls input,
+  .filter-dropdown {
+    width: 100%;
+  }
+}
