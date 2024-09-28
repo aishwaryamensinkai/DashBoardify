@@ -3,13 +3,13 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../css/Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    localStorage.removeItem("isAuthenticated"); // Remove authentication status
+    localStorage.removeItem("isAuthenticated");
+    setIsAuthenticated(false); // This ensures the state is updated
     navigate("/"); // Redirect to the login page
-    window.location.reload(); // Optional: Reload the page to reflect the change
   };
 
   return (

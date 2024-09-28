@@ -29,7 +29,7 @@ const App = () => {
     <Router>
       {isAuthenticated ? (
         <>
-          <Navbar />
+          <Navbar setIsAuthenticated={setIsAuthenticated} />
           <div className="app-container">
             <Routes>
               <Route
